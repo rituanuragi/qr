@@ -4,7 +4,7 @@
 import { QRCodeCanvas } from 'qrcode.react'; 
 
 export default function GenerateQRCode() {
-  const url = 'https://iridescent-twilight-64c032.netlify.app/product-page'; 
+  const url = '/product-page'; 
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
