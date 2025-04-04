@@ -15,13 +15,12 @@
     "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-qr-reader": "^3.0.0-beta-1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node":"18.x",
+    "@types/node": "18.x",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
