@@ -4,7 +4,7 @@
 import { QRCodeCanvas } from 'qrcode.react'; 
 
 export default function GenerateQRCode() {
-  const url = '/product-page'; 
+  const url = 'https://f2fintechqr-mvp.netlify.app/product-page'; 
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
