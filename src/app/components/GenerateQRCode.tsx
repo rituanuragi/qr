@@ -5,26 +5,23 @@ import { QRCodeCanvas } from 'qrcode.react';
 
 export default function GenerateQRCode() {
   const url = 'https://f2fintechqr-mvp.netlify.app/product-page'; 
-
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1 className="text-2xl font-bold mb-4">Scan this QR Code to visit the Loan Page:</h1>
-      
-      {/* Generate QR code dynamically */}
-      <div>
-        <QRCodeCanvas value={url} size={256} />
-      </div>
-      
-      {/* Optionally, you can also display or change the URL dynamically
-      <div className="mt-4">
-        <input
-          type="text"
-          value={url}
-          onChange={(e) => setUrl(e.target.value)}
-          className="border p-2 w-72"
-          placeholder="Enter URL to generate QR"
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-300 to-blue-400 p-6">
+      <h1 className="text-3xl font-extrabold text-white mb-8 drop-shadow-md">
+        Scan this QR Code
+      </h1>
+
+      {/* QR Code Canvas with styling */}
+      <div className="p-8 bg-white rounded-xl shadow-xl flex items-center justify-center">
+        <QRCodeCanvas 
+          value={url} 
+          size={256} 
+          bgColor="#ffffff" 
+          fgColor="#4CAF50" 
+          level="H" 
+          includeMargin={true} 
         />
-      </div> */}
+      </div>
     </div>
   );
 }
