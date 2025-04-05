@@ -98,6 +98,16 @@ export default function LoanPage() {
       >
         ⬅️ Go Back
       </button>
+       {/* Apply Now Button */}
+      <a
+        href="https://f2fintech.com/application-form"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-8 px-8 py-3 text-lg font-semibold bg-gradient-to-r from-green-500 to-green-300 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-green-600 hover:scale-105 transition duration-300"
+      >
+        
+        📝 Apply Now
+      </a>
     </div>
   );
 }
